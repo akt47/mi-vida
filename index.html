@@ -5,74 +5,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Adekunle's Creative Content </title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
   
 <body>
   <!-- Banner -->
-  <section class ="w3-container">
-    <h1>AT</h1>
-    <nav>
-      <ul>
-        <li> <a href= "#main"> Home </a> </li>
-        <li> <a href= "#i-am"> I Am </a> </li>
-        <li> <a href= "#art">Projects</a> </li>
-        <li> <a href = "#connect"> Connect </a> </li>  
-      </ul>
+  <section class ="w3-top w3-padding-24 w3-black">
+    <nav class="w3-row w3-large w3-border-dark-grey">
+      <div class="w3-col s3">
+         <a href= "#main" class="w3-button w3-block"> Home </a>
+      </div>
+      <div class="w3-col s3">
+         <a href= "#i-am" class="w3-button w3-block"> I Am </a> 
+    </div>
+        <div class="w3-col s3">
+         <a href= "#art" class="w3-button w3-block">Projects</a> 
+        </div>
+        <div class="w3-col s3">
+         <a href = "#connect" class="w3-button w3-block"> Connect </a>
+      </div>
     </nav>
   </section>
   
   <!-- Home --> 
-  <section id="main" class="w3-container">
-    <div>
+  <section id="main" class="w3-padding-64">
+    <div class="w3-center w3-padding-64 w3-grey">
       <h1> Adekunle Thomas <h1> 
-        </div>
-      <div>
-      <h2> Front-End developer inspired by your future to create content you can enjoy and rely on. <h2>
     </div>
     </section>
         <!-- About Me -->
         <section id= "i-am" class="w3-container">
-          <h2> I Am </h2>
-        </section class="w3-container">
+          <div class="w3-center w3-padding-64">
+          <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16"> I Am </span>
+          </div>
+          <div>
+            <h2>Front-End developer inspired by your future to create content you can enjoy and rely on.</h2>
+          </div>
+        </section>
         <!-- Art -->
-        <section id="art" class="w3-container">
-          <h2>Projects </h2>
-          <div class ="w3-card">
-              <article class="w3-container w3-teal">
-                  <h1> Run Buddy </h1>
+        <section id="art" class="w3-row-padding">
+          <div class="w3-center w3-padding-64">
+          <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Projects </span>
+          </div>
+         
+          <div class ="w3-third">
+            <article class="w3-container w3-teal">
+              <h3> Run Buddy </h3>
+            </article>
+            <div class="w3-card-4">
+              <img src="./assets/img/hero-bg (1).jpg" style="width: 100%; height:180px">
+              <div class="w3-container w3-teal">
+                  <p> HTML/CSS </p>
+            </div>
+            </div>
+            </div>
+          
+            <div class="w3-third">
+              <article class="w3-container w3-red"> 
+                
+                <h3>Dog Maps</h3>
               </article>
+              <div class="w3-card">
+                <a href="https://akt47.github.io/dog-maps/" target="_blank">
+                <img src="./assets/img/img2.jpg" class="w3-image" alt="dog-maps" style="width: 100%; height: 180px;">
+                </a>
+                <div class="w3-container w3-red">
+                 <p> JAVA/API</p>
+                </div>
+                </div>
             </div>
-            <div class="w3-card">
-             <article class="w3-container w3-red"> 
-                 <h1>Dog Maps</h1>
-                </article>
+            <div class="w3-third w3-margin-bottom w3-hover-opacity">
+              <article class="w3-container w3-green"> 
+                <h3>Feed Me</h3>
+            </article>
+              <div class="w3-card">
+                <img src="./assets/img/tacos.jpeg" style="width:100%; height:180px" class="w3-hover-opacity">
+             
+                <div class="w3-container w3-green">
+                  <p>Coming Soon </p>
             </div>
+                
+             </div>
+             </div>
+
         </section>
         
         <!--Connect -->
-        <section id="connect" class="w3-card">
-            <div class = "w3-container">
-          <h2> Connect </h2>
+        <section id="connect" class="w3-card w3-center">
+            <div class = "w3-center w3-padding-48">
+              <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Connect </span>
             </div>
-            <div class ="w3-container w3-purple">
-          <ul>
-            <li> Connect with me on LinkedIn</li>
-            <li> Connect with me on Instagram</li>
-            <li> Connect with me on Dribble</li>
-            </ul>
+            <div class ="w3-content w3-grey w3-xxlarge">
+          
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      
+            
         </div>
         </section>
         
         
-      <footer class="w3-container">
-        <div>
-          <h6>
-            <span> 2021 <a href ="mailto:kunle89@gmail.com"> Adekunle </a></span>. Memphis Made.
-          </h6>
-        </div>
-      
-            <p> This site was built from the inspiration of techs worldwide. Good things come in good time.<p>
+      <footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+        
+          <p>
+            <span> 2021 <a href ="mailto:kunle89@gmail.com"> Adekunle </a></br>Memphis Made</span>
+          </p>
+          <p>Powered by <a href="https://www.w3schools.com/w3css.default.asp" title="w3.css" target="_blank" class="w3-hover-text-purple">w3.css</a></p>
+          
       </footer>
 
 </body>
